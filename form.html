@@ -16,38 +16,41 @@
   <body>
     <header>
       <a href="#">
-        <h1 id="logo">Wealthwise</h1>
+          <h1 id="logo">Wealthwise</h1>
       </a>
 
       <nav>
-        <ul id="Navbar">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="#">Sign Up</a></li>
-        </ul>
+          <ul id="Navbar">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/services.html">Services</a></li>
+          </ul>
       </nav>
-    </header>
-    <section>
+  </header>
+    <section class="container-contact">
       <form>
-        <div>
+        <h2>Contact Us</h2>
+        <div class="form-group">
             <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" required />
-
+            <input type="text" id="first-name" name="first-name" required >
+        </div>
+        <div class="form-group">
             <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" required />
+            <input type="text" id="last-name" name="last-name" required >
         </div>
-        
-        <div>
+        <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email" required >
         </div>
-
-        <div>
+        <div class="form-group">
             <label for="comment">Comment:</label>
             <textarea id="comment" name="comment" rows="5" cols="40"></textarea>
         </div>
-        
         <button type="submit">Submit</button>
       </form>
     </section>
+    <footer>
+      <p>&copy; Copyright</p>
+  </footer>
+
   </body>
 </html>
