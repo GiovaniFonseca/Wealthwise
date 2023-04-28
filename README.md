@@ -1,5 +1,7 @@
 # Wealthwise
 Wealthwise is a financial planning and investment management firm that offers a range of customized services to help clients achieve their financial goals. Our team of experienced professionals works closely with clients to create personalized plans that meet their unique needs and circumstances.
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/112728772/235267425-87c20813-ae38-4028-99a2-fbed19026a32.png">
+
 
 ## Project Goal
 To develop a user-friendly and informative website for Wealthwise, a financial planning and management company, with the aim of attracting and retaining clients by providing easy access to relevant information about the company's services and expertise.
