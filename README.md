@@ -32,4 +32,4 @@ We offer three different pricing models for our services:
 - Per plan fee: Varies depending on the complexity and scope of the plan.
 
 ## Contact
-To learn more about our services or to schedule a consultation with one of our financial experts, please visit our website at www.wealthwise.com or contact us at info@wealthwise.com.
+To learn more about our services or to schedule a consultation with one of our financial experts, please visit our website at [Wealthwise](https://giov3ss.github.io/Wealthwise/index.html) or contact us at info@wealthwise.com.
