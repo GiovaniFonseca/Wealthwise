@@ -1,31 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Wealthwise</title>
-</head>
-<body>
-    <header>
-        <a href="#">
-            <h1 id="logo">Wealthwise</h1>
-        </a>
-
-        <nav>
-            <ul id="Navbar">
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <span class="header__logo">Wealthwise</span>
+        <nav class="main-nav">
+          <a class="main-nav__link" href="/">Home</a>
+          <a class="main-nav__link" href="/services.html">Services</a>
+          <a class="main-nav__link" href="#">Sign up</a>
         </nav>
+        <span class="header__button"><i class="fas fa-bars"></i> </span>
+      </div>
     </header>
-    <footer>
-        <p>&copy; Copyright</p>
+
+    <main>
+      <section class="hero">
+        <div class="hero-info">
+          <h1 class="hero-title">Wealth Wise Trust</h1>
+          <p class="hero-about">
+            In a world of Trust & Wealth Management. Wealth Wise Trust stands
+            apart. With a significant level of experience, we are a prominent,
+            highly regarded corporate trust and wealth management company. You
+            can count on us for candid advice and unbiased assessments with
+            customized investment strategies and services to both individuals
+            and organizations requiring trust or wealth management services.
+          </p>
+          <button class="more-btn">READ MORE</button>
+        </div>
+
+        <figure class="img-container">
+          <img src="/img/about-us.jpg" alt="" title="Wealth Wise Trust" />
+        </figure>
+      </section>
+      <section class="our-strategy">
+        <h2 class="strategy-title">Simple Strategy</h2>
+        <div class="strategy-container">
+          <figure>
+            <img src="/img/sow-it.jpg" alt="sow it" title="sow it" />
+            <figcaption class="caption">Sow it</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/img/preserve-it.jpg"
+              alt="preserve it"
+              title="preserve it"
+            />
+            <figcaption class="caption">Preserve it</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/img/leave-a-legacy.jpg"
+              alt="leave a legacy"
+              title="leave a legacy"
+            />
+            <figcaption class="caption">leave a legacy</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="quote">
+        <figure class="quote-container">
+          <blockquote>
+            <p class="quote-text">
+              “We help our clients pursue their passions by striving to take the
+              worry, fear and concern out of wealth management and financial
+              planning.”
+            </p>
+          </blockquote>
+
+          <figcaption class="quote-info">
+            <img
+              class="quote-item__image"
+              src="/img/loreen-1.jpg"
+              alt="Loreen Gilbert"
+            />
+            Loreen Gilbert <cite>WealthWise CEO</cite>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="sign">
+        <div class="sign-container">
+          <p class="sign-text">
+            Your platform to help you manage your entire financial world – at
+            home and on the go.
+          </p>
+          <button class="sign-btn">Sign Up</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; Copyright</p>
     </footer>
-    
-</body>
+  </body>
 </html>
