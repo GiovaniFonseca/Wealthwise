@@ -64,7 +64,6 @@ body {
   align-items: center;
   height: 70px;
   padding: 0 2em;
-
 }
 .header__logo {
   font-size: 1.5rem;
@@ -76,7 +75,6 @@ body {
   flex-direction: column;
   display: none;
   gap: 1em;
-
 }
 
 .main-nav a:visited {
@@ -126,6 +124,10 @@ body {
 
 .our-strategy {
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .strategy-container {
   display: flex;
@@ -211,7 +213,8 @@ body {
   border: 1px solid white;
   color: inherit;
 }
-footer {
+
+.footer {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -304,8 +307,74 @@ footer {
   margin-bottom: 0;
 }
 
-/* Sign up Style goes here*/
+/* Contact Us Style goes here*/
+.container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.container-contact h2 {
+  padding-bottom: 27px;
+  color: #1f2937;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  color: #1f2937;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="text"],
+textarea {
+  padding: 10px;
+  font-family: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button[type="submit"] {
+  background-color: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* media queries*/
 /* || SMALL */
 @media screen and (min-width: 576px) {
   .hero {
@@ -336,92 +405,18 @@ footer {
 
 /* || MEDIUM */
 @media screen and (min-width: 768px) {
-
   .header__container {
-
     justify-content: space-around;
-   
-  
   }
-  .header__button{
+  .header__button {
     display: none;
   }
-.main-nav{
-  display: flex;
-  flex-direction: row;
-  flex-grow: .5;
-  justify-content: space-evenly;
- } }
-/* Contact Us Style goes here*/
-
-.container-contact {
+  .main-nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container-contact h2 {
-    padding-bottom: 27px;
-    color: #1F2937
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-label {
-    color: #1F2937;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-}
-
-input[type="text"],
-input[type="text"],
-textarea {
-    padding: 10px;
-    font-family: 16px;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-textarea {
-    height: 100px;
-    resize: none;
-}
-
-button[type="submit"] {
-    background-color: #1F2937;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: #3e8e41;
-}
-
-
+    flex-direction: row;
+    flex-grow: 0.5;
+    justify-content: space-evenly;
+  }
 
   .quote-container {
     flex-direction: row;
@@ -429,20 +424,4 @@ button:hover {
   .sign-container {
     flex-direction: row;
   }
-
-  
-
-
-/* || LARGE */
-/* @media screen and (min-width: 992px) {
-
-} */
-
-/* || XL  */
-/* @media screen and (min-width: 1200px) {
-  nav {
-    border: 2px solid red;
-  }
-} */
-/*
-
+}
