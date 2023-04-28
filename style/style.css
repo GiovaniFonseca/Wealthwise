@@ -16,9 +16,17 @@
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  max-width: none;
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 
 input,
@@ -75,6 +83,10 @@ body {
   flex-direction: column;
   display: none;
   gap: 1em;
+}
+
+.main-nav__link {
+  color: #fff;
 }
 
 .main-nav a:visited {
@@ -223,7 +235,12 @@ body {
 
 /* Services Style goes here */
 
+#services {
+  background-color: #1f2937;
+}
+
 #services h2 {
+  color: #f9faf8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,6 +274,7 @@ body {
 }
 
 .service-container h3 {
+  color: #f9faf8;
   font-size: 24px;
   font-weight: bold;
   padding-top: 15px;
@@ -264,6 +282,7 @@ body {
 }
 
 .service-container p {
+  color: #f9faf8;
   font-size: 16px;
   line-height: 1.5;
   margin-top: 15px;
@@ -309,6 +328,7 @@ body {
 
 /* Contact Us Style goes here*/
 .container-contact {
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
